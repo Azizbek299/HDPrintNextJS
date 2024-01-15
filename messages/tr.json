@@ -1,0 +1,80 @@
+{
+    "Navbar": {
+      "ObratniyZvanok": "GERİ ARAMA",
+      "main":"ANA",
+      "about":"ŞİRKET HAKKINDA",
+      "our_service":"HİZMETLERİMİZ",
+      "portfolio":"PORTFÖY",
+      "gallery":"VİDEO GALERİSİ",
+      "feedback":"FİYATLAR",
+      "contacts":"TEMASLAR"
+    },
+    "aboutText":{
+      "text":"reklam ajansı",
+      "textt":"andijan'da açık hava reklamcılığı",
+      "text_0":"ŞİRKET HAKKINDA",
+      "text_1":"HD Print reklam ve üretim şirketi, Andijan'da 5 yılı aşkın bir süredir plastik, metal ve kompozit malzemelerden reklam ürünleri üretmek için bir dizi çalışma yürütmektedir. \n\n Faaliyet alanımız, çatı üniteleri, ışık kutuları, reklam panoları, panel braketleri, reklam ızgaraları, tenteler, ışık kutuları, şehir formatları, transit ve açık hava reklamcılığı, otopark reklamları, direkler, ışıklı hacimli harfler, tabelalar, POS malzemeleri vb. Her türlü dış mekan reklamcılığının imalatını ve yerleştirilmesini kapsamaktadır. Tasarım projesinin hazırlanmasından bitmiş reklam yapılarının kurulumuna kadar eksiksiz bir hizmet yelpazesi sunuyoruz.",
+      "text_2":"Kendi üretimimiz bize herhangi bir promosyon ürününü hızlı ve verimli bir şekilde üretme fırsatı veriyor, ayrıca müşterilerimize makul ve rekabetçi fiyatlar sunmamızı sağlıyor. Düzenli müşteriler, reklam ajansları, zincir mağazalar için esnek bir indirim sistemi ve Andijan'da bir açık hava reklam kompleksi sipariş ederken esnek bir indirim sistemi bulunmaktadır. \n\n Modern ekipman, standart dışı reklam ürünleri oluşturmak da dahil olmak üzere herhangi bir karmaşıklığın çalışmalarını gerçekleştirmenizi sağlar. Şirketin çalışanları, reklam alanında geniş deneyime sahip yüksek vasıflı uzmanlardır.",
+      "text_3":"Profesyonel bir tasarım oluşturuyoruz, tasarım hesaplamaları yapıyoruz, açık hava reklamcılığı için kayıt yaptırmanıza yardımcı oluyoruz ve açık hava reklamcılığının üretimi ve yerleştirilmesi ile ilgili tüm konularda danışmanlık yapıyoruz. Montaj ekipleri, herhangi bir karmaşıklığın yapılarını derhal kurmakta ve gerekli tüm kablolama çalışmalarını gerçekleştirmektedir. \n\n Modern reklam teknolojileriyle iyi tanınıyoruz, ancak özellikle önemlisi, reklam endüstrisindeki en son gelişmeleri öğrenerek her zaman gelişmeye ve kendini geliştirmeye hazırız. HD print ile işbirliği yapmak size tutarlı bir kalite ve başarı sağlar!",
+      "text_4":"BİZE GÜVENİYORLAR"
+    },
+    "footer":{
+      "address":"Adres",
+      "addressText":"Andizhan şehri, milliy tiklaniş caddesi 5. ev",
+      "ourContacts":"BAĞLANTILARIMIZ"
+    },
+    "service":{
+      "text1":"Hizmetlerimiz",
+      "text2":"Dış mekan reklamcılığının geliştirilmesi ve üretimi"
+    },
+
+    "pricePage":{
+      "osobennosti":"Özellikler",
+      "srokIzgorovleniya1":"Üretim süresi",
+      "srokIzgorovleniya2":"günün"
+    },
+
+    "homepage":{
+      
+      "serviceText1":"Hizmetlerimiz",
+      "serviceText2":"Dünyanın önde gelen üreticilerinden yüksek kaliteli tekniklerle çalışıyoruz. Bu, mümkün olan en kısa sürede kaliteli ürünler üretmemize ve zamandan ve paradan tasarruf etmenize olanak tanır.",
+      
+      "howWeWork":{
+        "text":"Nasıl çalışıyoruz",
+        "imageText1":"Tartışılmış",
+        "imageSubText1":"Bir isim, logo (varsa), reklam için bir yerin fotoğrafını gönderin veya sadece arayın",
+        "imageText2":"Maliyet ve tasarım",
+        "imageSubText2":"Gün boyunca maliyeti düşünüyoruz ve gelecekteki reklam tabelasının görsel tasarımını yapıyoruz",
+        "imageText3":"Üretiyoruz",
+        "imageSubText3":"Malzemeyi modern ekipmanlarda boyuyoruz ve 2-7 gün içinde montaj yapıyoruz",
+        "imageText4":"Kurulan",
+        "imageSubText4":"Belirlenen günde montaj grubu bitmiş reklam ürünlerinin montajını ve bağlantısını yapar"
+      },
+
+      "createdAddEveryWhere":{
+        "text1":"Özbekistan'ın her yerinde açık hava reklamcılığı yapmak",
+        "text2":"Cumhuriyetimizin 20 şehrinde 1000'den fazla açık hava reklamcılığı tesisi kuruldu"
+      },
+      "ourClients":{
+        "text1":"Müşterilerimiz",
+        "text2":"Müşterilerimizle gurur duyuyoruz ve Özbekistan'daki dış mekan reklamcılığı alanında en güncel çözümleri sunan işbirliğine değer veriyoruz"
+      },
+
+      "ourWork":{
+        "text1":"Bizim İşimiz",
+        "text2":"Çalışmamızla gurur duyuyoruz ve Özbekistan'daki dış mekan reklamcılığı alanında en güncel çözümleri sunan işbirliğine değer veriyoruz",
+        "text3":"Çalışmamızla gurur duyuyoruz ve işbirliğine değer veriyoruz"      
+      }
+      
+    },
+    
+    "sendSms":{
+      "text1":"Yakında sizinle iletişime geçeceğiz",
+      "text2":"Adınız",
+      "text3":"Telefon numaranız",
+      "text4":"İsmin o kadar uzun olmamalı",
+      "text5":"Telefon numaranızın o kadar uzun olması gerekmiyor",
+      "text6":"Göndermek"
+    }
+
+}

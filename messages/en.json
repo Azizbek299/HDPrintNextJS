@@ -1,0 +1,79 @@
+{
+    "Navbar": {
+      "ObratniyZvanok": "CALLBACK",
+      "main":"Main",
+      "about":"ABOUT THE COMPANY",
+      "our_service":"OUR SERVICES",
+      "portfolio":"PORTFOLIO",
+      "gallery":"VIDEO GALLERY",
+      "feedback":"PRICES",
+      "contacts":"CONTACTS"
+    },
+    "aboutText":{
+      "text":"advertising agency",
+      "textt":"outdoor advertising in Andijan",
+      "text_0":"ABOUT THE COMPANY",
+      "text_1":"The HD Print advertising and production company has been carrying out a range of works on the production of advertising products made of plastic, metal and composite materials in Andijan for more than 5 years. \n\n The scope of our activity includes the manufacture and placement of outdoor advertising of all types – roof installations, light boxes, billboards, panel brackets, advertising grids, awnings, light boxes, city formats, transit and outdoor advertising, parking advertising, pillars, illuminated three-dimensional letters, signs, POS materials, etc. We offer a full range of services: from drawing up a design project to the installation of ready-made advertising structures.",
+      "text_2":"Our own production gives us the opportunity to quickly and efficiently produce any promotional products, in addition, it allows us to offer reasonable and competitive prices to our customers. There is a flexible discount system for regular customers, advertising agencies, chain stores, as well as when ordering an outdoor advertising complex in Andijan. \n\n Modern equipment allows you to perform work of any complexity, including creating non-standard advertising products. The company's employees are highly qualified specialists with extensive experience in the advertising field.",
+      "text_3":"We create professional design, perform design calculations, help to get registration for outdoor advertising, and also advise on all issues related to the manufacture and placement of outdoor advertising. Installation teams promptly install structures of any complexity, as well as perform all necessary electrical work. \n\n We are well aware of modern advertising technologies, but, most importantly, we are always ready for development and self-improvement by mastering the latest developments in the advertising industry. Cooperation with HD print guarantees you consistent quality and success!",
+      "text_4":"THEY TRUST US"
+    },
+    "footer":{
+      "address":"Address",
+      "addressText":"Andijan city, 5 Milliy tiklanish street",
+      "ourContacts":"OUR CONTACTS"
+    },
+    "service":{
+      "text1":"Our services",
+      "text2":"Development and production of outdoor advertising"
+    },
+    "pricePage":{
+      "osobennosti":"Features",
+      "srokIzgorovleniya1":"Production time",
+      "srokIzgorovleniya2":"of the day"
+    },
+
+    "homepage":{
+      
+      "serviceText1":"Our services",
+      "serviceText2":"We work with high-quality equipment from well-known world manufacturers. This allows us to produce high-quality products in the shortest possible time, and save you time and money.",
+      
+      "howWeWork":{
+        "text":"How we work",
+        "imageText1":"We are discussing",
+        "imageSubText1":"Send the name, logo (if any), a photo of the place to advertise, or just call",
+        "imageText2":"Cost and design",
+        "imageSubText2":"During the day, we calculate the cost and make a visual design of the future advertising sign",
+        "imageText3":"We produce",
+        "imageSubText3":"We color the material with modern equipment and assemble it within 2-7 days",
+        "imageText4":"Installing",
+        "imageSubText4":"On the appointed day, the installation team installs and connects the finished advertising products"
+      },
+
+      "createdAddEveryWhere":{
+        "text1":" Production of outdoor advertising throughout Uzbekistan",
+        "text2":"More than 1000 outdoor advertising facilities have been installed in 20 cities of our Republic"
+      },
+      "ourClients":{
+        "text1":"Our clients",
+        "text2":"We are proud of our customers and appreciate the cooperation by offering the most modern solutions in the field of outdoor advertising in Uzbekistan"
+      },
+
+      "ourWork":{
+        "text1":"Our Work",
+        "text2":"We are proud of our work and appreciate the cooperation by offering the most modern solutions in the field of outdoor advertising in Uzbekistan",
+        "text3":"We are proud of our work and appreciate the cooperation"      
+      }
+      
+    },
+    
+    "sendSms":{
+      "text1":"We will contact you as soon as possible",
+      "text2":"Your name",
+      "text3":"Your phone number",
+      "text4":"Your name shouldn't be that long.",
+      "text5":"Your phone number shouldn't be that long.",
+      "text6":"Send"
+    }    
+
+}

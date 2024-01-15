@@ -1,0 +1,80 @@
+{
+    "Navbar": {
+      "ObratniyZvanok": "BIZ BILAN BOG'LANING ",
+      "main":"Bosh SAHIFA",
+      "about":"KOMPANIYA HAQIDA",
+      "our_service":"BIZNING HIZMATLARIMIZ",
+      "portfolio":"BIZNING ISHLARIMIZ",
+      "gallery":"VIDEO GALEREYA",
+      "feedback":"NARHLAR",
+      "contacts":"KONTAKTLAR"
+    },
+    "aboutText":{
+      "text":"reklama agentligi",
+      "textt":"tashqi reklama andijonda",
+      "text_0":"KOMPANIYA HAQIDA",
+      "text_1":"HD Print reklama va ishlab chiqarish kompaniyasi 5 yildan ortiq vaqt davomida Andijonda. \n\nPlastik metall va kompozit materiallardan reklama mahsulotlari ishlab chiqarish bo'yicha kompleks ishlarni amalga oshirmoqda. Bizning faoliyatimiz har qanday turdagi tashqi reklamalarni ishlab chiqarish va joylashtirishni o'z ichiga oladi – tom yopish moslamalari, yorug'lik qutilari, reklama taxtalari, panel qavslari, reklama panjaralari, markizlar, yorug'lik qutilari, shahar formatlari, tranzit va tashqi reklama, avtoturargohlarda reklama, stendlar, engil hajmli harflar, plitalar, pos materiallari va boshqalar. Biz dizayn loyihasini tuzishdan tortib, tayyor reklama tuzilmalarini o'rnatishgacha bo'lgan barcha xizmatlarni taklif etamiz.",
+      "text_2":"O'z ishlab chiqarishimiz bizga har qanday reklama mahsulotlarini tez va samarali ishlab chiqarish imkoniyatini beradi, bundan tashqari, bu bizga mijozlarimizga o'rtacha va raqobatbardosh narxlarni taklif qilish imkonini beradi. \n\n Andijonda doimiy mijozlar, reklama agentliklari, tarmoq do'konlari, shuningdek tashqi reklama majmuasiga buyurtma berishda chegirmalar tizimi mavjud.Zamonaviy uskunalar har qanday murakkablikdagi ishlarni bajarishga, shu jumladan nostandart reklama mahsulotlarini yaratishga imkon beradi. Kompaniya xodimlari reklama sohasida katta tajribaga ega bo'lgan yuqori malakali mutaxassislardir.",
+      "text_3":"Biz professional dizayn yaratamiz, dizayn hisob-kitoblarini amalga oshiramiz, tashqi reklama uchun ro'yxatdan o'tishga yordam beramiz, shuningdek tashqi reklama ishlab chiqarish va joylashtirish bilan bog'liq barcha masalalar bo'yicha maslahat beramiz. O'rnatish komandamiz har qanday murakkablikdagi tuzilmalarni tezda o'rnatadilar, shuningdek barcha kerakli elektr ishlarini bajaradilar. \n\n Biz zamonaviy reklama texnologiyalarini yaxshi bilamiz, lekin eng muhimi, biz har doim reklama sohasidagi eng yangi ishlanmalarni o'zlashtirish orqali rivojlanish va o'z-o'zini takomillashtirishga tayyormiz. \n\n HD print bilan hamkorlik qilish sizga doimiy sifat va muvaffaqiyatni kafolatlaydi !",
+      "text_4":"BIZNING HAMKORLARIMIZ"
+    },
+    "footer":{
+      "address":"Manzil",
+      "addressText":"Andijon shahri, Milliy tiklanish ko'chasi 5 uy ",
+      "ourContacts":"BIZNING ALOQALARIMIZ"
+    },
+    "service":{
+      "text1":"Bizning hizmatlar",
+      "text2":"Tashqi reklamani ishlab chiqish va ishlab chiqarish"
+    },
+
+    "pricePage":{
+      "osobennosti":"Xususiyatlari",
+      "srokIzgorovleniya1":"Ishlab chiqarish muddati",
+      "srokIzgorovleniya2":"kun"
+    },
+
+    "homepage":{
+      "serviceText1":"Bizning hizmatlar",
+      "serviceText2":"Biz taniqli global ishlab chiqaruvchilarning yuqori sifatli uskunalari bilan ishlaymiz. Bu bizga imkon qadar qisqa vaqt ichida sifatli mahsulotlar ishlab chiqarish imkonini beradi va siz vaqt va pulni tejashingiz mumkin.",
+      
+      "howWeWork":{
+        "text":"Biz qanday ishlaymiz",
+        "imageText1":"Muhokama qilamiz",
+        "imageSubText1":"Reklama uchun joy nomini, logotipini (agar mavjud bo'lsa), fotosuratini yuboring yoki shunchaki qo'ng'iroq qiling",
+        "imageText2":"Narxi va dizayni",
+        "imageSubText2":"Kun davomida biz narxni hisoblaymiz va kelajakdagi reklama belgisining vizual dizaynini qilamiz",
+        "imageText3":"Bajaramiz",
+        "imageSubText3":"Biz materialni zamonaviy uskunalarda ranglaymiz va 2-7 kun ichida yig'amiz",
+        "imageText4":"O'rnatamiz",
+        "imageSubText4":"Belgilangan kunda o'rnatish guruhi tayyor reklama mahsulotlarini o'rnatish va ulashni amalga oshiradi"
+      },
+
+      "createdAddEveryWhere":{
+        "text1":" O'zbekiston bo'ylab tashqi reklama ishlab chiqarish",
+        "text2":"Respublikamizning 20 shahrida 1000 dan ortiq tashqi reklama ob'ektlari o'rnatildi"
+      },
+
+      "ourClients":{
+        "text1":"Bizning mijozlarimiz",
+        "text2":"Biz mijozlarimiz bilan faxrlanamiz va hamkorlikni qadrlaymiz O'zbekiston bo'yicha  eng zamonaviy tashqi reklama echimlarini taklif qilish"
+      },
+
+      "ourWork":{
+        "text1":"Bizning Ishlarimiz",
+        "text2":"Biz o'z ishimiz bilan faxrlanamiz va hamkorlikni qadrlaymiz O'zbekiston bo'yicha  eng zamonaviy tashqi reklama echimlarini taklif qilamiz",
+        "text3":"Biz o'z ishimiz bilan faxrlanamiz va hamkorlikni qadrlaymiz"
+      }
+
+    },
+    
+    "sendSms":{
+      "text1":"Tez orada siz bilan bog'lanamiz",
+      "text2":"Sizning ismingiz",
+      "text3":"Sizning telefon raqamingiz",
+      "text4":"Sizning ismingiz unchalik uzoq bo'lmasligi kerak",
+      "text5":"Sizning telefon raqamingiz unchalik uzoq bo'lmasligi kerak",
+      "text6":"Yuborish"
+    }
+
+}
