@@ -17,7 +17,7 @@ export async function createCategory(title: string) {
     // Текстни авто тарзда slug килиб берадиган функция
     const slug = slugify(title)
   
-    let response = await fetch("http://localhost:3000/api/category", {
+    let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/category`, {
       method: "POST",
       body: JSON.stringify({title, slug}),
     });
@@ -32,7 +32,7 @@ export async function createCategory(title: string) {
 
 
  export async function getCategory() {
-    const res = await fetch("http://localhost:3000/api/category", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/category`, {
       method: "GET",
       cache:"no-cache",       
       //  next: { revalidate: 10 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -47,7 +47,7 @@ export async function createCategory(title: string) {
   
 
   export async function DeleteCategory(id:number) {
-    const res = await fetch(`http://localhost:3000/api/category/${id}`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/category/${id}`, {
       method: "DELETE",
       cache:"no-cache",       
       //  next: { revalidate: 10 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -64,7 +64,7 @@ export async function createCategory(title: string) {
 
   export async function UpdateCategory(id:number, data:any) {
     
-    let response = await fetch(`http://localhost:3000/api/category/${id}`, {
+    let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/category/${id}`, {
       method: "PUT",
       body: JSON.stringify(data),
     });
@@ -90,7 +90,7 @@ export async function createCategory(title: string) {
 
   export async function createCarousel(body:any) {
 
-    let response = await fetch("http://localhost:3000/api/carousel", {
+    let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/carousel`, {
       method: "POST",
       body: JSON.stringify({body}),
     });
@@ -103,7 +103,7 @@ export async function createCategory(title: string) {
     
 
   export async function getCarousel() {
-    const res = await fetch("http://localhost:3000/api/carousel", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/carousel`, {
       method: "GET",
       cache:"no-cache",       
       //  next: { revalidate: 10 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -118,7 +118,7 @@ export async function createCategory(title: string) {
 
 
   export async function getCarouselForUser() {
-    const res = await fetch("http://localhost:3000/api/carousel", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/carousel`, {
       method: "GET",           
       next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради
       //  action.tsx ни POST ичида  revalidatePath  борлиги учун бу   next: { revalidate: 10 }  ни ишлатмадик
@@ -134,7 +134,7 @@ export async function createCategory(title: string) {
 
 
   export async function DeleteCarousel(id:string) {
-    const res = await fetch(`http://localhost:3000/api/carousel/${id}`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/carousel/${id}`, {
       method: "DELETE",
       cache:"no-cache",       
       // next: { revalidate: 1 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -160,7 +160,7 @@ export async function createCategory(title: string) {
 export async function createOurJob(body:any) {
   const slug = slugify(body.uz.title)
   body.slug = slug
-  let response = await fetch("http://localhost:3000/api/our-jobs", {
+  let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-jobs`, {
     method: "POST",
     body: JSON.stringify(body),
   });
@@ -172,7 +172,7 @@ export async function createOurJob(body:any) {
   
 
 export async function getOurJob() {
-  const res = await fetch("http://localhost:3000/api/our-jobs", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-jobs`, {
     method: "GET",
     cache:"no-cache",       
     //  next: { revalidate: 10 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -186,7 +186,7 @@ export async function getOurJob() {
 }
 
 export async function getOurJobForUser() {
-  const res = await fetch("http://localhost:3000/api/our-jobs", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-jobs`, {
     method: "GET",     
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради
     //  action.tsx ни POST ичида  revalidatePath  борлиги учун бу   next: { revalidate: 10 }  ни ишлатмадик
@@ -200,7 +200,7 @@ export async function getOurJobForUser() {
 
 
 export async function getOurJobByName(name:string) {
-  const res = await fetch(`http://localhost:3000/api/our-job/${name}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-job/${name}`, {
     method: "GET",
     cache:"no-cache",       
     //  next: { revalidate: 10 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -215,7 +215,7 @@ export async function getOurJobByName(name:string) {
 
 
 export async function getOurJobByNameForUser(name:string) {
-  const res = await fetch(`http://localhost:3000/api/our-job/${name}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-job/${name}`, {
     method: "GET",     
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради
     //  action.tsx ни POST ичида  revalidatePath  борлиги учун бу   next: { revalidate: 10 }  ни ишлатмадик
@@ -228,7 +228,7 @@ export async function getOurJobByNameForUser(name:string) {
 }
 
 export async function DeleteOurJob(id:string) {
-  const res = await fetch(`http://localhost:3000/api/our-jobs/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-jobs/${id}`, {
     method: "DELETE",
     cache:"no-cache",       
     // next: { revalidate: 1 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -258,7 +258,7 @@ export async function DeleteOurJob(id:string) {
 export async function createVideo(body:any) {
   const slug = slugify(body.uz.title)
   body.slug = slug
-  let response = await fetch("http://localhost:3000/api/video", {
+  let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/video`, {
     method: "POST",
     body: JSON.stringify(body),
   });
@@ -270,7 +270,7 @@ export async function createVideo(body:any) {
   
 
 export async function getVideo() {
-  const res = await fetch("http://localhost:3000/api/video", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/video`, {
     method: "GET",
     cache:"no-cache",       
     //  next: { revalidate: 10 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -285,7 +285,7 @@ export async function getVideo() {
 
 
 export async function getVideoForUser() {
-  const res = await fetch("http://localhost:3000/api/video", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/video`, {
     method: "GET",         
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради
     //  action.tsx ни POST ичида  revalidatePath  борлиги учун бу   next: { revalidate: 10 }  ни ишлатмадик
@@ -298,7 +298,7 @@ export async function getVideoForUser() {
 }
 
 export async function DeleteVideo(id:string) {
-  const res = await fetch(`http://localhost:3000/api/video/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/video/${id}`, {
     method: "DELETE",
     cache:"no-cache",       
     // next: { revalidate: 1 }, //  Ахамият берамиз маълумотни хар  10 секунда янгилаб туради
@@ -326,7 +326,7 @@ export async function createOurService(body:any) {
   // Текстни авто тарзда slug килиб берадиган функция 
   const slug = slugify(body.uz.title)
   body.slug = slug
-  let response = await fetch("http://localhost:3000/api/our-service", {
+  let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-service`, {
     method: "POST",
     body: JSON.stringify({body}),
   });
@@ -339,7 +339,7 @@ export async function createOurService(body:any) {
 
    
 export async function getOurService() {
-  const res = await fetch("http://localhost:3000/api/our-service", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-service`, {
     method: "GET",
     cache:"no-cache",       
     headers: {
@@ -351,7 +351,7 @@ export async function getOurService() {
 
 
 export async function getOurServiceForUser() {
-  const res = await fetch("http://localhost:3000/api/our-service", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-service`, {
     method: "GET",
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради     
     headers: {
@@ -365,7 +365,7 @@ export async function getOurServiceForUser() {
 
 
 export async function getOurServicesByName(name:string) {
-  const res = await fetch(`http://localhost:3000/api/our-services/${name}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-services/${name}`, {
     method: "GET",
     cache:"no-cache",       
     headers: {
@@ -376,7 +376,7 @@ export async function getOurServicesByName(name:string) {
 }
 
 export async function getOurServicesByNameForUser(name:string) {
-  const res = await fetch(`http://localhost:3000/api/our-services/${name}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-services/${name}`, {
     method: "GET",
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради           
     headers: {
@@ -388,7 +388,7 @@ export async function getOurServicesByNameForUser(name:string) {
 
 
 export async function getOneOurService(id:string) {
-  const res = await fetch(`http://localhost:3000/api/our-service/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-service/${id}`, {
     method: "GET",
     cache:"no-cache",       
     headers: {
@@ -401,7 +401,7 @@ export async function getOneOurService(id:string) {
 
 
 export async function DeleteOurService(id:string) {
-  const res = await fetch(`http://localhost:3000/api/our-service/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-service/${id}`, {
     method: "DELETE",
     cache:"no-cache",           
     headers: {
@@ -417,7 +417,7 @@ export async function DeleteOurService(id:string) {
 export async function UpdateOurService(id:number, data:any) {
   let slug = slugify(data?.uz?.title)
   data.slug = slug
-  let response = await fetch(`http://localhost:3000/api/our-service/${id}`, {
+  let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/our-service/${id}`, {
     method: "PUT",
     body: JSON.stringify(data),
   });
@@ -444,7 +444,7 @@ export async function createProduct(body:any) {
   const slug = slugify(body.uz.title)
   body.slug = slug
 
-  let response = await fetch("http://localhost:3000/api/products", {
+  let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products`, {
     method: "POST",
     body: JSON.stringify({body}),
   });
@@ -457,7 +457,7 @@ export async function createProduct(body:any) {
 
    
 export async function getProducts() {
-  const res = await fetch("http://localhost:3000/api/products", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products`, {
     method: "GET",
     cache:"no-cache",       
     headers: {
@@ -469,7 +469,7 @@ export async function getProducts() {
 
 
 export async function getProductsForUser() {
-  const res = await fetch("http://localhost:3000/api/products", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products`, {
     method: "GET",
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради     
     headers: {
@@ -480,7 +480,7 @@ export async function getProductsForUser() {
 }
 
 export async function getOneProductForUser(id:string) {
-  const res = await fetch(`http://localhost:3000/api/products/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products/${id}`, {
     method: "GET",
     next: { revalidate: 300 }, //  Ахамият берамиз маълумотни хар  300 секунда янгилаб туради               
     headers: {
@@ -494,7 +494,7 @@ export async function getOneProductForUser(id:string) {
 
 
 export async function getOneProduct(id:string) {
-  const res = await fetch(`http://localhost:3000/api/products/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products/${id}`, {
     method: "GET",
     cache:"no-cache",       
     headers: {
@@ -507,7 +507,7 @@ export async function getOneProduct(id:string) {
 
 
 export async function DeleteProduct(id:string) {
-  const res = await fetch(`http://localhost:3000/api/products/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products/${id}`, {
     method: "DELETE",
     cache:"no-cache",           
     headers: {
@@ -523,7 +523,7 @@ export async function DeleteProduct(id:string) {
 export async function UpdateProduct(id:number, data:any) {
   let slug = slugify(data?.uz?.title)
   data.slug = slug
-  let response = await fetch(`http://localhost:3000/api/products/${id}`, {
+  let response = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api/products/${id}`, {
     method: "PUT",
     body: JSON.stringify(data),
   });
